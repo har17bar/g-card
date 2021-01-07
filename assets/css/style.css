@@ -119,7 +119,11 @@ p {
   line-height: 24px;
   color: #6c6c6c;
   margin-top: 24px; }
-
+@media (min-width: 1200px) {
+  .container{
+    max-width: 1230px;
+  }
+}
 /*===== All Preloader Style =====*/
 .preloader {
   /* Body Overlay */
@@ -2363,6 +2367,7 @@ background: linear-gradient(90deg, rgba(76,142,218,1) 0%, rgba(3,114,243,1) 35%,
        10.SLIDER css 
 ===========================*/
 .carousel-item {
+  min-height: 696px;
   background-color: #0067f4;
   position: relative; }
   .carousel-item::before {
@@ -2534,8 +2539,12 @@ background: linear-gradient(90deg, rgba(76,142,218,1) 0%, rgba(3,114,243,1) 35%,
   background-color: #f4f6f7;
   padding-top: 60px;
   padding-bottom: 130px; }
-
+.features-title-icon .features-title{
+  font-size: 22px;
+  text-transform: uppercase;
+}
 .single-features {
+  height: 220px;
   padding: 40px 20px 52px;
   background-color: #fff; }
   .single-features .features-title-icon .features-title a {
@@ -2566,7 +2575,7 @@ background: linear-gradient(90deg, rgba(76,142,218,1) 0%, rgba(3,114,243,1) 35%,
     position: relative;
     display: inline-block; }
     .single-features .features-title-icon .features-icon i {
-      font-size: 88px;
+      font-size: 60px;
       line-height: 70px;
       color: #0067f4;
       position: relative;
